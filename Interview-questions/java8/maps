@@ -4,3 +4,4 @@ What is the significance of equals() and hashcode() in Hashmap ?
 Why the searching time-complexity of HashMap is O(1) ?
 What is Hashmap treefy threshold and why it is introduced in Java 8 ?
 Difference betwenn Hashtable and Hashmap and also HashTable VS Concurrent HashMap ?
+Why does concurrent hashmap and Hash table doesn't allow null keys or values ?    refere: https://stackoverflow.com/questions/698638/why-does-concurrenthashmap-prevent-null-keys-and-values
