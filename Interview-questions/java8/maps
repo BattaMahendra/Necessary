@@ -5,3 +5,15 @@ Why the searching time-complexity of HashMap is O(1) ?
 What is Hashmap treefy threshold and why it is introduced in Java 8 ?
 Difference betwenn Hashtable and Hashmap and also HashTable VS Concurrent HashMap ?
 Why does concurrent hashmap and Hash table doesn't allow null keys or values ?    refere: https://stackoverflow.com/questions/698638/why-does-concurrenthashmap-prevent-null-keys-and-values
+refer this website for more questions: https://mirbozorgi.com/19-most-often-asked-java-hashmap-interview-questions/
+
+4. How do you measure the performance of HashMap?
+
+As a software engineer working in Java, it is essential you know how to measure the performance of HashMap. 
+When the interviewer asks you this question, you can mention the parameters you use for the performance measurement.
+ You can elaborate on what these are and how they help.
+
+Example: 'You can measure the performance of HashMap by looking at the parameters that affect it. 
+These are initial capacity and load factor. Capacity is the number of buckets in the hash table has.
+ Initial capacity indicates the number of buckets the hash table had at the time of its creation. Load factor is the measure that determines how full the hash table is and when to increase the Map capacity. 
+The default load factor is 75% of the capacity.'
