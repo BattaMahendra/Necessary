@@ -1,0 +1,5 @@
+How Hashmap is stored in memory — Memory Structure ?
+What is Hash Collision during hashmap.put() operation ?
+What is the significance of equals() and hashcode() in Hashmap ?
+Why the searching time-complexity of HashMap is O(1) ?
+What is Hashmap treefy threshold and why it is introduced in Java 8 ?
