@@ -1,81 +1,86 @@
-What are the main principles of object-oriented programming (OOP)?
-Explain the principles of object-oriented programming (OOP) and how they are implemented in Java
-What are the access modifiers in Java? Explain their significance and provide examples.
-Explain the difference between an abstract class and an interface in Java.
-How does Java handle multiple inheritance limitations?
-What is the purpose of the “final” keyword in Java? How is it different from “finally”?
-Describe the difference between method overloading and method overriding.
-What is the significance of the “static” keyword in Java? How does it affect variables and methods?
-Explain the concept of exception handling in Java. How does it help in managing errors?
-What are the different types of exceptions in Java? Provide examples of each.
-Explain the difference between checked and unchecked exceptions in Java. When would you use each one?
-How does garbage collection work in Java? What are the different types of garbage collectors?
-What is the purpose of the “synchronized” keyword in Java? How does it relate to multithreading?
-Describe the difference between StringBuffer and StringBuilder in Java.
-Discuss the differences between String, StringBuilder, and StringBuffer in Java. When would you use each one?
-Explain the concept of generics in Java. How does it ensure type safety?
-What are the advantages of using Java collections framework over traditional arrays?
-How do you create and start a new thread in Java? What are the different ways to achieve this?
-Describe the concept of serialization in Java. How can you make a class serializable?
-How does Java support serialization and deserialization? Explain the Serializable interface.
-What are the main differences between the “==”, “equals()”, and “hashCode()” methods in Java?
-What is the purpose of the equals() and hashCode() methods in Java? How are they related?
-Explain the concept of reflection in Java. How can you use it to inspect classes and objects?
-What are annotations in Java? Provide examples of built-in annotations and explain their usage.
-How does Java support multithreading? What are the different mechanisms provided by Java for concurrent programming?
-Discuss the concept of Java memory management. What is the difference between stack and heap memory?
+OOPS:
+	What are the main principles of object-oriented programming (OOP)?
+	What are the access modifiers in Java? Explain their significance and provide examples.
+	Explain the difference between an abstract class and an interface in Java.
+	How does Java handle multiple inheritance limitations?
+	Describe the difference between method overloading and method overriding.
+	What is the significance of the “static” keyword in Java? How does it affect variables and methods?
+	What is the purpose of the “final” keyword in Java? How is it different from “finally” and finalize?
+	Explain the concept of inner classes in Java. What are the different types of inner classes?
+	Describe the concept of anonymous inner classes in Java. How are they used?
+	Explain the difference between a shallow copy and a deep copy of an object in Java.
+	Explain the concept of class loading in Java. How does the JVM load and initialize classes?
+	Explain the concept of autoboxing and unboxing in Java. Provide examples.
+	Describe the purpose and usage of the “this” keyword in Java. Provide examples.
+	Explain the concept of method hiding in Java. How does it differ from method overriding?
+	Discuss the role of the “super” keyword in Java. When and how is it used?
+	Explain the concept of marker interfaces in Java. Provide examples of built-in marker interfaces.
 
-Discuss the concept of method references in Java 8 and how they simplify lambda expressions.
-What are lambda expressions in Java? How do they improve code readability and conciseness?
-What are functional interfaces in Java? Provide examples and explain their purpose.
-Discuss the difference between the java.util.Date and java.time.LocalDate classes in Java 8.
 
-What are the Java Memory Model and its main principles? How does it ensure thread safety?
-Explain the concept of inner classes in Java. What are the different types of inner classes?
-Describe the concept of anonymous inner classes in Java. How are they used?
-Discuss the benefits of using the java.util.concurrent package for concurrent programming in Java.
-What are the different ways to handle concurrent modification exceptions in Java collections?
-Explain the purpose and usage of the transient and volatile keywords in Java.
-Discuss the differences between the Comparable and Comparator interfaces in Java. When would you use each one?
-Explain the concept of Java Native Interface (JNI) and its usage for integrating native code with Java programs.
+Exception Handling:
+	Explain the concept of exception handling in Java. How does it help in managing errors?
+	What are the different types of exceptions in Java? Provide examples of each.
+	Explain the difference between checked and unchecked exceptions in Java. When would you use each one?
+	Explain the purpose and usage of the assert keyword in Java. How does it help in debugging?
+	Explain the concept of the try-with-resources statement in Java. How does it handle resource management?
+	Describe the differences between the throw and throws keywords in Java exception handling.
 
-What are the features introduced in Java 8 and Java 9? Explain their significance and usage.
-Explain the difference between a shallow copy and a deep copy of an object in Java.
-Discuss the purpose and usage of the finalize() method in Java. When would you use it?
-Explain the concept of class loading in Java. How does the JVM load and initialize classes?
-Discuss the advantages of using the StringBuilder class over concatenating strings using the “+” operator.
-Explain the concept of autoboxing and unboxing in Java. Provide examples.
 
-Discuss the principles of immutability and how to create immutable objects in Java.
-Discuss the differences between HashMap and HashTable in Java. When would you use each one?
-Describe the purpose and usage of the “this” keyword in Java. Provide examples.
-Describe the purpose and usage of the java.util.Optional class in Java 8.
-Explain the purpose and usage of the assert keyword in Java. How does it help in debugging?
-Discuss the differences between the FileInputStream and FileReader classes in Java.
+Multithreading
+	What is the purpose of the “synchronized” keyword in Java? How does it relate to multithreading?
+	How do you create and start a new thread in Java? What are the different ways to achieve this?
+	How does Java support multithreading? What are the different mechanisms provided by Java for concurrent programming?
+	Explain the purpose and usage of the transient and volatile keywords in Java.
+	Discuss the advantages and disadvantages of using the synchronized keyword in Java multithreading.
 
-Explain the concept of method hiding in Java. How does it differ from method overriding?
-Discuss the role of the “super” keyword in Java. When and how is it used?
-Describe the difference between shallow copying and deep copying of objects in Java.
 
-Explain the concept of the “instanceof” operator in Java. How is it used for type checking?
+Memory Management:
+	How does garbage collection work in Java? What are the different types of garbage collectors?
+	Discuss the concept of Java memory management. What is the difference between stack and heap memory?
+	What are the Java Memory Model and its main principles? How does it ensure thread safety?
+	Discuss the purpose and usage of the finalize() method in Java. When would you use it?
 
-Describe the role and significance of the “default” keyword in Java interfaces.
-Discuss the differences between the Vector and ArrayList classes in Java.
-Discuss the differences between ArrayList and LinkedList in Java. When would you use each one?
-Discuss the differences between the java.util.Stack and java.util.Queue interfaces in Java.
-Discuss the differences between the java.util.HashSet and java.util.TreeSet classes in Java.
+String, StringBuffer and String builder
+	Describe the difference between StringBuffer and StringBuilder in Java.
+	Discuss the differences between String, StringBuilder, and StringBuffer in Java. When would you use each one?
+	Discuss the advantages of using the StringBuilder class over concatenating strings using the “+” operator.
+	Discuss the differences between the StringTokenizer and Split methods for string tokenization in Java.
 
-Explain the concept of the try-with-resources statement in Java. How does it handle resource management?
-Describe the differences between the throw and throws keywords in Java exception handling.
+Generics
+	Explain the concept of generics in Java. How does it ensure type safety?
 
-Explain the concept of marker interfaces in Java. Provide examples of built-in marker interfaces.
+Collections and Streams Java8
+	What are the advantages of using Java collections framework over traditional arrays?
+	What are the main differences between the “==”, “equals()”, and “hashCode()” methods in Java?
+	Discuss the concept of method references in Java 8 and how they simplify lambda expressions.
+	What are lambda expressions in Java? How do they improve code readability and conciseness?
+	What are functional interfaces in Java? Provide examples and explain their purpose.
+	Discuss the difference between the java.util.Date and java.time.LocalDate classes in Java 8.
+	Discuss the benefits of using the java.util.concurrent package for concurrent programming in Java.
+	What are the different ways to handle concurrent modification exceptions in Java collections?
+	Discuss the differences between the Comparable and Comparator interfaces in Java. When would you use each one?
+	What are the features introduced in Java 8 and Java 9? Explain their significance and usage.
+	Discuss the differences between HashMap and HashTable in Java. When would you use each one?
+	Describe the purpose and usage of the java.util.Optional class in Java 8.
+	Discuss the differences between the Vector and ArrayList classes in Java.
+	Discuss the differences between ArrayList and LinkedList in Java. When would you use each one?
+	Discuss the differences between the java.util.Stack and java.util.Queue interfaces in Java.
+	Discuss the differences between the java.util.HashSet and java.util.TreeSet classes in Java.
+	Describe the role and significance of the “default” keyword in Java interfaces
+	Describe the differences between HashSet and TreeSet in Java. When would you use each one?
+	Describe the purpose and usage of the java.util.Arrays class in Java.
 
-Discuss the advantages and disadvantages of using the synchronized keyword in Java multithreading.
+Serialization and Deserialization
+	Describe the concept of serialization in Java. How can you make a class serializable?
+	How does Java support serialization and deserialization? Explain the Serializable interface.
 
-Describe the differences between HashSet and TreeSet in Java. When would you use each one?
+Reflection API
+	Explain the concept of reflection in Java. How can you use it to inspect classes and objects?
+	Explain the concept of the “instanceof” operator in Java. How is it used for type checking?REFLECTION
 
-Discuss the differences between the StringTokenizer and Split methods for string tokenization in Java.
-
-Describe the purpose and usage of the java.util.Arrays class in Java.
-
-Describe the purpose and usage of the java.util.Scanner class in Java.
+Other
+	What are annotations in Java? Provide examples of built-in annotations and explain their usage.
+	Explain the concept of Java Native Interface (JNI) and its usage for integrating native code with Java programs.
+	Discuss the principles of immutability and how to create immutable objects in Java.
+	Discuss the differences between the FileInputStream and FileReader classes in Java.
+	Describe the purpose and usage of the java.util.Scanner class in Java.
