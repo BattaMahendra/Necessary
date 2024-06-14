@@ -1,0 +1,57 @@
+Microservices + Spring boot interview 3 years experienced
+
+1. What is the logging system do you use in your application ?
+	a. how do you configure it in your app from scratch ?
+2. What is dependency management in spring boot and how does it help us ?
+3. If you have mismatching dependencies in your application , what happens ?
+4. How do you solve that manually ?
+5. Can we disable the default server in the spring boot ? and how do you do that ?
+	Yes, it is possible to disable the default web server in a Spring Boot application.
+	By default, Spring Boot uses an embedded web server (like Tomcat), but it's possible to disable it by setting the property spring.main.web-application-type to none in the application.properties file.
+	Once we disable the webserver , our application can't recieve http requests.
+6. How do you disable a specific class or bean from auto configuration ?
+7. Difference between rest controller and controller ?
+8. Which types of data formats we can return with Rest controller ? is it only JSON ?
+9. How do you return XML format from rest controller ?
+10. Difference b/w request mapping and get mapping ? and in which scenarios they should be used ?
+11. Difference b/w war and embedded containers ?
+12. Can we use environment variables in Spring boot application code level ?
+13. What is the significance of spring boot dev tools property ?
+14. How do you test the spring boot application ?
+15. Can you explain the detailed steps of testing spring boot application from scratch ?
+16. What is the purpose of unit testing in software development cycle ?
+17. What is the code coverage rule in your organisation ?
+18. What is significance of @SpringBootTest annotation ?
+19. What is purpose of pom.XML file in the spring boot application ?
+20. What is the significance of @ComponentScan and @Bean annotations in spring boot ?
+21. How can u programmatically determine which profile is currently active ?
+22. What is significance of @Configuration annotation in spring boot ?
+23. What are different log levels and significance of them ?
+24. What is the use of spring boot starter parent ?
+25. What are the REST API best practices ?
+26. What will you keep the status code if you successfully delete a record in your DB ?
+27. What is the significance of 400 series status codes in HTTP codes ?
+28. Why do we need multi threading in some of our applications ?
+29. What are some of best practices in Collections while you use them  in your application ?
+30. How to test a static method ?
+31. What is the use of interface and how does it help us ?
+32. How is multiple inheritance achieved in Java ? What is daimond problem ?
+33. What is difference b/w abstract class and interface ?
+34. Did you ever use design patterns in your projects ?
+35. Can you explain Liskov Substitution principle ?
+36. Which one is better, constructor injection or setter injection ? and why ?
+37. What is the static keyword ?
+38. Can a static block throw exception ?
+39. Can we override and overload a static method ?
+40. What is the significance of final keyword in java ?
+41. Can we modify a final object reference in java ?
+42. How do you handle exceptions in your application ? What are strategies and best practices practices in your  app ?
+43. Can you share some custom exception names in your application ?
+44. Can you brief on java memory model ?
+
+Coding Q's
+1. Given an array of integers , remove duplicates and make that unique ?
+2. How do you sort an array of integers ?
+3. Which algorithm does collections.sort() internally ?
+4. How do you find a number is prime or not in fastest way ?
+5.
