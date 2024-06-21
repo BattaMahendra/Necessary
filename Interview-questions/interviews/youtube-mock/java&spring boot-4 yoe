@@ -1,0 +1,32 @@
+How to create a spring boot project from scratch ?
+What are the specific configuration settings required for spring boot application ?
+HOw do you manage different profiles in your project ?
+Internally how does spring boot manages dependencies ?
+How do you integrate spring security from scratch ?
+Can we include another spring boot project in our present spring boot app ?
+What are the performance and other factors when we do that ?
+What is the signifcance of @RestController annotation ?
+Can we return custom formats other than json and xml from a rest controller ?
+continuation: How do you return a custom format , explain the flow ?
+What is the significance of http codes starting with 200, 300, 400 and 500 ?
+continuation: What status code would you return if you delete an item successfully ?
+What are the embedded servers in spring boot ?
+How can improve the performance of embedded server in spring boot application ?
+Why do we need swagger and what is the use of it ?
+Can we customize the Auto configuration in spring boot ?
+continuation: how do you do that ?
+How do you design the transactional when working with multiple databases ?
+How do you solve the N+1 select problem in hibernate ?
+Do you know about json serialization and deserializationi and can we customize it ?
+How do you debug when the app in prod level is slower than app deployed in dev level ?
+Difference b/w jdk, jre, jvm and jvm architecture ?
+Can we install jdk without jre ?
+What are the tools avilable in jdk ?
+What is memory storage architecture in jvm ?
+what is young generation and old generation in jvm ?
+What is internal working of hashmap and how it is different before java 8 ?
+What is the performance improvement within the hashmap after java 8 ?
+Can we run java application without main method ?
+
+
+
