@@ -1,0 +1,35 @@
+Can you tell us about your experience and tech stacks you have used ?
+can you brief us like how did you implement microservices in your project ?
+why do we really need service Discovery ?
+How does Service discovery helps with cloud based applications compared to appilcations in local ?
+If in a case our service discovery is down and all service registry is gone , how do you handle this scenario ?
+What is the significance of API gateways ?
+How did you implement sucurity in your application ?
+How did you implement the role based security for methods ?
+What is the method level security and @PreAuthorize annotation significance ?
+How did you authenticate application ?
+What is OIDC ?
+Can u explain me how jwt is structured ?
+What does payload part contains in jwt ?
+How did your microservices communicate with each other ?
+How will you improve communication b/w your microservices to be faster ?
+	1. use caching
+	2. use asynchronous mechanism
+	3. Data base indexing
+How did you implement logging in your microservices ?
+What is centralized logging and what tools are you using for visualizations in your applicataions ?
+What is significance of prometheus ?
+What is actuator and why do we need it in our applications ?
+What caching techniques did you use in your applications and how did it help your systems ?
+What are ORM frameworks did you use for database communications ?
+What type of caching did you use for ORM based transactions ?
+Lets suppose you have created a rest api and you need to handover it to consumer ? How did you communicate all the required rest api details with consumer, the details
+		like api url, request body, sample response body and headers ? How did you communicate with them ?
+What if I want my consumer to see only 2-3 apis of my application and others need to be hidden ? How can you acheive this ?
+Lets suppose your service is providing same rest api to microservices A and B , now B wants some major changes in it and A don't want them (because A's internal code will break)
+		now how would you achieve this with same API ?
+How did you manage profilings in your spring boot application ?
+How did you globalize your common properties b/w microservices ?
+How does your application gets the latest changes in config files ?
+What is the significance of @RefreshScope annotation ?
+What CI/CD technique you have used for your applicatin ?

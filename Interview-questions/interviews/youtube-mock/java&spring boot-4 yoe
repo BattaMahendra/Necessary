@@ -28,5 +28,9 @@ What is internal working of hashmap and how it is different before java 8 ?
 What is the performance improvement within the hashmap after java 8 ?
 Can we run java application without main method ?
 
+Coding Q's
+
+1. Consider a array containing 0's and 1's and now move all 1's to right and zeros to left using java 8
+
 
 
