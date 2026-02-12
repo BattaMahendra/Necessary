@@ -1,0 +1,24 @@
+I have attended an interview conducted on infinite computer solutions. It was a very brief interview and I didn't brush up my basics. Here are the Questions
+
+1. Explain about the technical nature of your work ? What do you know about Telecom domain ?
+2. Which team you worked on and what did you do mostly ?
+3. Lets suppose you don't have microservices system and you have simple spring boot app. What if so many requests coming to your app ?
+    How do you handle your app ?
+    What measures do you take to make your app working well ? 
+    What if you move your system to micro services architecture ?
+4. Exception handling in spring boot ? 
+5. Session management in spring boot ? 
+    How can a user logged in once can maintain the so many sessions without logging in again and again ? 
+6. What if so many requests going to DB ? How do you handle situation and connections ?
+7. What is spring AOP ? How did you use that in your system ? 
+8. Why 1 == 1 is True but 128 == 128 is False in Java?
+9. Is the below code correct ? 
+      Set<String> stringSets = new HashSet<String>() { { add("set1"); add("set2"); add("set3"); } };
+10. Does importing of com.myMainPackage.* also import com.myMainPackage.mySubPackage.*?
+11. What do you know about system.exit(o) ? Does finally execute in that case ? 
+12. Explain about System.out.println() ?
+    A. What do you know about ?
+    B. Where do you use it mostly ?
+    C. Do you use it in spring boot apps ?
+    D. What if we keep System.out = null ? Then what happens if you invoke println() method on it ?
+13. What is rate limiting ? 
