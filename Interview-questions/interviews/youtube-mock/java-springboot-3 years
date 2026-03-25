@@ -1,0 +1,21 @@
+1. How @RequestBody works internally in Spring Boot
+2. End-to-end flow of how an Entity class eventually becomes a table in the database (JPA → Hibernate → SQL)
+3. Why we use @Service and @Repository, what Spring does differently with them internally
+4. What happens if both @Service and @Repository are used on the same class
+5. Thread lifecycle - especially NEW vs RUNNABLE states
+6. Fail-Fast vs Fail-Safe iterators (with real examples)
+7. Why ConcurrentHashMap exists and when to use it
+8. What an API Gateway does in a microservices setup
+
+Coding / hands-on questions:
+
+9. 2Sum problem (follow-up: 3Sum)
+10. Filtering employees above a certain salary using Java Streams
+11. Finding average salary using Streams
+12. Grouping employees by department (Streams + follow-up in SQL)
+13. Self join in SQL and real use cases
+
+Java basics check:
+
+14. Output and execution order of try–catch–finally blocks
+After this, they deep-dived into Microservices and Kafka, which I’ll probably cover in another post.
