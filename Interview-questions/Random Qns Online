@@ -1,1 +1,8 @@
-How to apply code changes without restarting the server in a spring boot app (hot reload concepts)
+1. How to apply code changes without restarting the server in a spring boot app (hot reload concepts)
+2. If a request goes through API Gateway → Controller → Service → Database and is taking too much time, how would you optimize and improve performance?
+    DB Layer - Indexes on frequent queries, 
+               avoid select * - get only required columns,
+        			 avoid N+1 quries
+						   Use Pagination
+               
+  
