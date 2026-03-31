@@ -2,7 +2,22 @@
 2. If a request goes through API Gateway → Controller → Service → Database and is taking too much time, how would you optimize and improve performance?
     DB Layer - Indexes on frequent queries, 
                avoid select * - get only required columns,
-        			 avoid N+1 quries
-						   Use Pagination
+        	   avoid N+1 quries
+			   Use Pagination
+			   Maintain Hikari CP connections
+			   Hibernate caching (first level and second level)
+			   Read - write DBs [ Write to primary DB and read from child DBs]
+			   
+	Service Layer: 1. Use Caching for idempotent request
+				   2. Async processing
+				   3. Use Projections instead of getting whole entity
+				   4. Use circuit breakers and fallback mechanisms
+	
+	API Gateway : 1. Load balancer and horizontal scaling.
+				  2. Centralized security and authentication mechanisms.
+	
+	Metrics     : 1. First identify where slowness is there using logging.
+				  2. Optimize accordingly.
+				  3. JVM level tuning
                
   
