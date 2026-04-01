@@ -1,0 +1,85 @@
+
+1. @Controller vs @RestController
+2. Explain architecture of your previous projects ? Your role in it ?
+3. Is bean created by @Singleton ? If so why is it singleton by default ?
+4. What are ACID properties and how do you ensure them in your apps and DBs ?
+5. What is use @Valid annotation ? 
+			How it is implemented ? 	
+			What are different kind of annotations associated with it ?
+
+6. What is Caching in Spring boot ? and How it is achieved ?
+		What are various annotations involved with it ?
+ 		In memory caching vs Distributed Caching ?
+
+7. How do you ensure code quality in your applications ?
+		Be ready to discuss about - Clean architecture 
+								  - Using proper Data structures ( Hashmap for searching instead of Array List)
+								  - Proper Testing mechanisms ( unit tests, integration tests)
+								  - Static code analysis tools ( SonarQube - code smells)
+								  - Proper Coding standards - proper naming, exception handling, DRY, YAGNI, SOLID
+								  - Using proper logging
+								  - Validation of inputs ( @Valid)
+								  - Code reviews
+								  - CI/CD pipeline
+								  - Proper configuration management ( dev, prod level)
+								  - Performance and Monitoring
+								  - Security Best practices - authentication, JWT, DTOs
+								  
+8. What are some performance optimizations in spring boot micro services ?
+		Be ready to discuss about 
+			
+			DB Layer - Indexes on frequent queries, 
+					   avoid select * - get only required columns,
+					   avoid N+1 quries
+					   Use Pagination
+					   Maintain Hikari CP connections - tune pool size
+					   Hibernate caching (first level and second level)
+					   Read - write DBs [ Write to primary DB and read from child DBs]
+					   
+			Service Layer: 1. Use Caching for idempotent request
+						   2. Async processing - use reactive programming when needed
+						   3. Use Projections instead of getting whole entity
+						   4. Use circuit breakers and fallback mechanisms
+						   5. Use DTOs instead of Entitys
+						   6. Thread Pool Tuning
+									props --> server.tomcat.threads.max=200
+			
+			API Gateway : 1. Load balancer and horizontal scaling.
+						  2. Centralized security and authentication mechanisms.
+						  3. Rate limiting and Routing
+			
+			Metrics     : 1. First identify where slowness is there using logging.
+						  2. Optimize accordingly.
+						  3. JVM level tuning
+
+9.  Write Controller class and get method for api to get employees based on employee id ?
+							- @RestController
+							- @RequestMapping
+							- @GetMapping
+							- @PathVariable
+							- @RequestMapping
+							- @Valid
+							- Response Entity
+9.A.  What are various Http Status codes ?
+
+10. What mechanisms did you use for inter-service-communication ?
+		
+		Be ready to discuss about Sync - RestTemplate 
+									   - Feign Client
+									   - Web Client (non blocking) - MONO, FLUX
+									   
+								  Async - Event streaming
+										- @Async
+				  supporting mechanisms - API Gateway ( routing, load balancing, secutiry, rate limiting)
+									    - Eureka Registry (Service Discovery)
+										- Circuit Breaker ( Resilience4J)
+
+11. Explain about Resilience4J ? What is the use of it ?
+			Be ready to discuss about - Circuit Breaker ( OPEN, HALF_OPEN, CLOSED)
+											- Fall Back Mechanisms
+											- Thresholds
+									  - Retry mechnisms ( gap time , how many times)
+									  - Rate Limiter
+									  - Time Limiter
+									  - BulkHead
+
