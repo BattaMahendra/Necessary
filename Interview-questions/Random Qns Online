@@ -19,5 +19,12 @@
 	Metrics     : 1. First identify where slowness is there using logging.
 				  2. Optimize accordingly.
 				  3. JVM level tuning
+3. How does @Transactional work ? What are common mistakes and catches with it ?
+
+4. What do u know about ISO8583 ?
+5. How do u find a file in sub directory ?
+6. Explain Maven lifecycle ?
+7. Explain Spring Bean lifecycle ?
+8. What is the use of Settings.xml in spring boot projects?
                
   
