@@ -26,5 +26,9 @@
 6. Explain Maven lifecycle ?
 7. Explain Spring Bean lifecycle ?
 8. What is the use of Settings.xml in spring boot projects?
+9. Why is main method static in java ? Why is it public void ?
+			What is the use of String[] args params in main method ?
+10. How do you handle concurrent requests in your spring boot app ?
+		Discuss about Tomcat server thread configuration.
                
   
