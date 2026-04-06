@@ -30,5 +30,11 @@
 			What is the use of String[] args params in main method ?
 10. How do you handle concurrent requests in your spring boot app ?
 		Discuss about Tomcat server thread configuration.
+
+Micro services 
+
+1. How do you maintain consistency in database in your spring boot micro services architecture ?
+
+      - Discuss about eventual consistency, saga, Cqrs, 2 phase commit dps and idempotency in spring boot. 
                
   
