@@ -1,0 +1,31 @@
+Stream API coding question 
+-->	How do you group employees by city and count the number of employees in each city?
+-->	How do you group employees by city and get the list of employees for each city?
+-->	How do you group employees by city but only keep selected fields (like name and department)?
+-->	How do you convert a list of employees into a map with employee ID as the key and employee object as the value?
+-->	What happens if there are duplicate keys when using Collectors.toMap? How do you resolve it?
+-->	How would you use Collectors.toMap to convert a list of employees into a map by ID while handling duplicate keys by updating the existing value?
+-->	How do you find the employee with the maximum salary using streams?
+-->	How do you find the employee with the minimum salary using streams?
+-->	How do you find the Nth highest paid employee?
+-->	How do you find the Nth lowest-paid employee?
+-->	Show the employee's max salary, or the 2nd max, or the nth maximum department-wise?
+-->	Find the employee with the maximum salary department-wise.
+-->	Find the employee with the minimum salary department-wise.
+-->	Find the employee with the second-highest salary department-wise.
+-->	Find the employee with the second-lowest salary department-wise.
+
+String Question 
+-->	Count the frequency of the character
+-->	Count the frequency of the character and print only the duplicate value
+-->	remove all the duplicate characters from the string (using a linked hash set or a Boolean array)
+-->	Find the first non-repeating character
+-->	Count the frequency of the word
+-->	Count the frequency of the word and print only the duplicate value
+-->	Remove all the duplicate words from the string
+-->	Give a string of numbers and convert it to an integer without using an integer.parseInt()
+-->	Reverse a string
+-->	Reverse each word in the string
+-->	Is string a palindrome
+-->	Given a string s1 and s2, which is your target string, count the no of times s2 is present in s1
+-->	Length of the longest substring without repeating characters
