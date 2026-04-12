@@ -31,10 +31,16 @@
 10. How do you handle concurrent requests in your spring boot app ?
 		Discuss about Tomcat server thread configuration.
 
+11. How can we make Kafka producer idempotent ?
+12. In pom.xml, what is the use of tag <DistributionManagement> ?
+
 Micro services 
 
 1. How do you maintain consistency in database in your spring boot micro services architecture ?
 
       - Discuss about eventual consistency, saga, Cqrs, 2 phase commit dps and idempotency in spring boot. 
+
+2. How do you implement spring security in distributed micro services ?
+
                
   
