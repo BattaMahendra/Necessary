@@ -25,14 +25,27 @@
 5. How do u find a file in sub directory ?
 6. Explain Maven lifecycle ?
 7. Explain Spring Bean lifecycle ?
-8. What is the use of Settings.xml in spring boot projects?
 9. Why is main method static in java ? Why is it public void ?
 			What is the use of String[] args params in main method ?
-10. How do you handle concurrent requests in your spring boot app ?
-		Discuss about Tomcat server thread configuration.
+
 
 11. How can we make Kafka producer idempotent ?
 12. In pom.xml, what is the use of tag <DistributionManagement> ?
+
+Spring Boot
+
+1. What is Optimistic Locking ? Why do we neeed it and what problem does it solve ? 
+		Follow up : What is the use of @Version ?
+					What is pessimistic locking and when it is preferred ?
+2. How do you handle concurrent requests in your spring boot app ?
+		Discuss about Tomcat server thread configuration.
+3.  What is the use of Settings.xml in spring boot projects?
+
+
+KAFKA
+
+1. What happens if consumer fails in receiving message ?
+
 
 Micro services 
 
@@ -41,6 +54,7 @@ Micro services
       - Discuss about eventual consistency, saga, Cqrs, 2 phase commit dps and idempotency in spring boot. 
 
 2. How do you implement spring security in distributed micro services ?
+
 
                
   
