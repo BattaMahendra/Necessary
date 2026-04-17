@@ -40,6 +40,7 @@ Spring Boot
 2. How do you handle concurrent requests in your spring boot app ?
 		Discuss about Tomcat server thread configuration.
 3.  What is the use of Settings.xml in spring boot projects?
+4. Your API must handle duplicate requests - how will you ensure idempotency?
 
 
 KAFKA
