@@ -32,6 +32,15 @@
 11. How can we make Kafka producer idempotent ?
 12. In pom.xml, what is the use of tag <DistributionManagement> ?
 
+JAVA
+
+1. Why does Hashmap allows null keys and null values where as Hashtable doesn't allow ?
+	When we get null we have two scenarios in Hashmap using get(key)
+		A. Has key --> value is null --> get(key) returns NULL
+		B. Has no key itself --->  get(key) returns NULL
+	Follow up: How does hashmap differentiates in above scenario ? Discuss about containsKey(K k) method in Hashmap.
+
+
 Spring Boot
 
 1. What is Optimistic Locking ? Why do we neeed it and what problem does it solve ? 
