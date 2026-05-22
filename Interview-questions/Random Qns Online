@@ -39,7 +39,12 @@ JAVA
 		A. Has key --> value is null --> get(key) returns NULL
 		B. Has no key itself --->  get(key) returns NULL
 	Follow up: How does hashmap differentiates in above scenario ? Discuss about containsKey(K k) method in Hashmap.
+2. Multithreading coding question – Write a Java program to print numbers from 1 to 10 using 3 threads (Thread-1, Thread-2, Thread-3). 
+   The execution should happen sequentially, such that the output appears in order (Thread-1 prints 1, Thread-2 prints 2, Thread-3 prints 3, and so on in sequence). 
+   Use thread coordination techniques (wait/notify or synchronization) to maintain the order.
 
+3. Array manipulation question – Given an integer array, replace all duplicate elements with -1 
+   and move them to the end of the array while keeping the order of unique elements intact.
 
 Spring Boot
 
